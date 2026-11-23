@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Deadcord
+GenericName=Client Discord Sécurisé & Anti-Tracking
+Comment=Client Discord hybride WebCord + Vencord avec isolation multi-comptes et anti-télémétrie
+Exec=/home/ghw/.local/bin/deadcord
+Icon=deadcord
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;Chat;
+Keywords=discord;deadcord;vencord;webcord;privacy;chat;
+StartupNotify=true

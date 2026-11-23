@@ -1,0 +1,40 @@
+{
+  "name": "deadcord",
+  "version": "1.2.0",
+  "description": "Deadcord - Privacy-hardened Discord client with mandatory Tor onion routing, fail-closed killswitch, multi-account isolation and Vencord privacy extensions",
+  "main": "src/main.js",
+  "keywords": [
+    "discord",
+    "discord-client",
+    "privacy",
+    "tor",
+    "onion-routing",
+    "vencord",
+    "e2ee",
+    "encryption",
+    "anonymity",
+    "fail-closed",
+    "kill-switch",
+    "anti-fingerprint",
+    "multi-account",
+    "anti-tracking",
+    "wayland",
+    "exif-cleaner",
+    "security",
+    "electron"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadcow-ghw/Deadcord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deadcow-ghw/Deadcord/issues"
+  },
+  "homepage": "https://github.com/deadcow-ghw/Deadcord#readme",
+  "scripts": {
+    "start": "electron43 . --enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland",
+    "package:linux": "tar -czf dist/Deadcord-Linux-x64.tar.gz --exclude='.git' --exclude='node_modules' --exclude='dist' ."
+  },
+  "author": "Deadcow Security Lab",
+  "license": "GPL-3.0"
+}
